@@ -17,7 +17,6 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    /* Cursor is set to auto by default, custom cursor handled via JS/CSS class */
 }
 
 html {
@@ -529,9 +528,7 @@ textarea.form-control { min-height: 150px; resize: vertical; }
 }
 .custom-cursor.expand { width: 50px; height: 50px; background-color: rgba(108, 99, 255, 0.3); border-color: transparent; }
 
-/* --- [NEW] WORLD-CLASS HERO UPGRADE --- */
-
-/* 1. Grid Layout for Hero */
+/* --- HERO GRID UPGRADE --- */
 .hero .container.hero-grid {
     display: grid;
     grid-template-columns: 1.2fr 1fr;
@@ -542,7 +539,7 @@ textarea.form-control { min-height: 150px; resize: vertical; }
     z-index: 2;
 }
 
-/* 2. Visual Polish for Text Area */
+/* Visual Polish for Text Area */
 .badge-container {
     margin-bottom: 20px;
 }
@@ -582,7 +579,7 @@ textarea.form-control { min-height: 150px; resize: vertical; }
     background: rgba(108, 99, 255, 0.1);
 }
 
-/* 3. The "Neural Core" Animation (Right Side) */
+/* Neural Core Animation */
 .hero-visual {
     display: flex;
     justify-content: center;
@@ -648,7 +645,7 @@ textarea.form-control { min-height: 150px; resize: vertical; }
     animation: spin 20s infinite linear;
 }
 
-/* 4. Bottom Stats Strip */
+/* Bottom Stats Strip */
 .hero-stats {
     position: absolute;
     bottom: 0;
@@ -706,7 +703,7 @@ textarea.form-control { min-height: 150px; resize: vertical; }
     50% { transform: scale(1.1); opacity: 0.8; }
 }
 
-/* --- [NEW] TECHNOLOGY PAGE EXPANSION --- */
+/* --- TECHNOLOGY PAGE EXPANSION --- */
 .tech-section {
     padding: 100px 0;
     position: relative;
@@ -751,7 +748,7 @@ textarea.form-control { min-height: 150px; resize: vertical; }
     margin-bottom: 10px;
 }
 
-/* --- [NEW] WORLD-CLASS FOOTER --- */
+/* --- FOOTER & SOCIAL ICONS --- */
 footer {
     background: linear-gradient(180deg, var(--bg-dark) 0%, #050508 100%);
     border-top: 1px solid rgba(255, 255, 255, 0.05);
@@ -817,7 +814,7 @@ footer {
     outline: none;
 }
 
-/* --- [NEW] Social Icons 2x2 Grid Fix --- */
+/* Social Icons 2x2 Grid Fix */
 .social-links {
     display: grid !important;
     grid-template-columns: 45px 45px !important;
